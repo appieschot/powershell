@@ -63,7 +63,7 @@ Get users with advanced query capabilities. Use of -ConsistencyLevelEventual.
 
 ### Example 5
 ```powershell
-Invoke-PnPGraphMethod "https://graph.microsoft.com/v1.0/users"
+Invoke-PnPGraphMethod -Url "https://graph.microsoft.com/v1.0/users"
 ```
 
 Performs a GET request to retrieve users from the Microsoft Graph API using the full URL.
